@@ -3,7 +3,7 @@ name: Scrape
 on: 
   push:
   schedule:
-    - cron: "*/5 * * * *" # every 5 mins
+    - cron: "*/1 * * * *" # every 1 mins
 
 jobs:
   build:
